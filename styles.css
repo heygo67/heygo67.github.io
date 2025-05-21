@@ -23,3 +23,18 @@ body {
     color: #fff;
   }
   
+  #projects {
+    padding: 2em 0;
+  }
+
+  .project {
+    margin-bottom: 1.5em;
+  }
+
+  .project h3 {
+    margin-bottom: 0.2em;
+  }
+
+  .project ul {
+    margin: 0.5em 0 1em 1em;
+  }
