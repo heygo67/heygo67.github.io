@@ -67,10 +67,50 @@
         </div>
 
         <div class="project">
-          <h3>Project Title</h3>
+          <h3>Secure Notes App</h3>
+          <p>
+            A full-stack web application that allows users to create and manage AES-encrypted personal notes. Implemented secure authentication using JWT, password hashing with bcrypt, input sanitization (DOMPurify), access control, and secure headers (Helmet.js).
+          </p>
+          <ul>
+            <li>Frontend: React · Backend: Node.js/Express · Database: In Memory (Development) · MongoDB (Production)</li>
+            <li>Encryption: AES (CryptoJS) · Authentication: JWT + bcrypt</li>
+            <li>Security: Helmet, XSS prevention, access control middleware</li>
+          </ul>
+          <p>
+            <a href="https://github.com/heygo67/secure-notes-app" target="_blank">View Source on GitHub</a>
+            <a href="https://levelupapp.render.com" target="_blank" style="margin-left: 1em;">Live Demo</a>
+          </p>
+        </div>
+        
+        <div class="project">
+          <h3>Student Level-Up Tracker</h3>
+          <p>
+            A secure Sinatra-based web app that analyzes student enrollment Excel files to determine level-up eligibility based on time since start date.
+          </p>
+          <ul>
+            <li>Calculated months since enrollment and identified students at 6/12/16/24-month level-up intervals</li>
+            <li>Used Roo to parse Excel, processed files in memory, and rendered flagged results in-browser</li>
+            <li>Enforced file size/type validation, CSP headers, Rack::Protection middleware, and SHA-256 file hashing</li>
+            <li>Stateless design deployed to Render with no data storage or cookies</li>
+          </ul>
+          <p>
+            <a href="https://github.com/heygo67/levelupapp" target="_blank">View Source on GitHub</a>
+            <a href="https://levelupapp.render.com" target="_blank" style="margin-left: 1em;">Live Demo</a>
+          </p>
+        </div>
+
+        <div class="project">
+          <h3>Secure Web Application - SSTI Research & Remediation</h3>
+          <h4>University of Memphis | COMP 4432 - Secure Coding & Testing</h4>
           <p>1–2 sentence description</p>
-          <ul><li>Key tech or features</li></ul>
-          <p><a href="..." target="_blank">GitHub</a></p>
+          <ul>
+            <li>Developed and exploited a deliberately vulnerable Ruby on Rails application to demonstrate Server-Side Template Injection (SSTI) across three template engines (ERB, Haml, Slim)</li>
+            <li>Used Burp Suite, manual code review, and Minitest unit tests to detect and confirm arbitrary code execution vulnerabilities</li>
+            <li>Implemented mitigation strategies including output escaping, safe rendering patterns, and regression testing</li>
+            <li>Wrote an 8+ page research paper in LNCS format, modeling academic conference standards and security reporting practices</li>
+            <li>Explored offensive/defensive security techniques and evaluated the impact of template engine behavior on exploitability</li>
+            </ul>
+          <p><a href="https://docs.google.com/document/d/1X5-HAuqPjj1lKuqdJ-SXyAhoft_RZxU-/edit?usp=drive_link&ouid=114214557855202866578&rtpof=true&sd=true" target="_blank">Paper Available on Google Drive</a></p>
         </div>
       </section>
     </div>
