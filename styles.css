@@ -86,4 +86,38 @@ footer {
   font-size: 1em;
 }
 
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    padding: 1em;
+  }
+
+  .left-column,
+  .right-column {
+    width: 100%;
+    margin: 0 0 1em 0;
+    padding: 1em;
+  }
+
+  header {
+    padding: 1em;
+    text-align: center;
+  }
+
+  .header-text h1 {
+    font-size: 1.5em;
+  }
+
+  .header-text p {
+    font-size: 1em;
+  }
+
+  .project ul {
+    padding-left: 1em;
+  }
+
+  a {
+    word-break: break-word;
+  }
+}
 
